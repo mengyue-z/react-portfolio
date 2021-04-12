@@ -9,6 +9,6 @@
 
 # Links
 
-* The URLs of the deployed website: https://mengyue-z.github.io/Portfolio
+* The URLs of the deployed website: https://dry-wave-82087.herokuapp.com/portfolio
 
 * The URLs of the GitHub repositories: https://github.com/mengyue-z/react-portfolio
