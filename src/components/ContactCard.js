@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import "../App.css";
 import { VscGithub } from 'react-icons/vsc';
 import { TiSocialLinkedinCircular } from 'react-icons/ti'
-import resume from "../images/resume Mengyue Zhang.pdf"
+import resume from "../images/resume mengyue Zhang.pdf"
 
 function ContactCard() {
   return (
