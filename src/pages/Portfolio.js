@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <Row>
     <Card>
-    <Card.Body>
+    <Card.Body className= "project-deck">
         <Card.Title>Portfolio</Card.Title>
             <CardDeck>
             {Projects.map((project) => {
@@ -18,6 +18,7 @@ function Portfolio() {
         description={project.description}
         repo ={project.repo}
         live={project.live}
+        techUsed={project.techUsed}
 />)
     })}
             </CardDeck>

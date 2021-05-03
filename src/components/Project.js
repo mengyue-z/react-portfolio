@@ -4,9 +4,9 @@ import "../App.css";
 
 function Project(props) {
   return (
-    <div className="col-lg-4 col-sm-6 portfoliocards">
-    <Card>
-                                    <Card.Img className="card-img-top" src={props.imgUrl} alt="portfolio" />
+    <div className="col-lg-4 col-md-6 portfoliocards">
+    <Card className ="project-cards">
+                                    <Card.Img varaint="top" className="card-img-top" src={props.imgUrl} alt="portfolio" />
                                     <Card.Body>
                                     <Card.Title className="card-title" id="project-title">{props.title}</Card.Title>
                                     <Card.Text className="card-text"> {props.description}</Card.Text>
@@ -17,6 +17,7 @@ function Project(props) {
                                      View Deployed App
                                     </Button>
                                     </Card.Body>
+                                    <Card.Footer><small>{props.techUsed}</small></Card.Footer>
                                 </Card>
                                 </div>
 
