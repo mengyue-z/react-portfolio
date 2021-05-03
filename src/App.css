@@ -90,10 +90,9 @@ footer {
 margin:15px;
 }
 
-.card-img-top {
-height:100%;
+.project-cards{
+  height:100%;
 }
-
 .aboutme-card {
   margin-top:2rem !important;
 }
@@ -108,4 +107,30 @@ a{
 
 .project-btn{
   margin-right:5px;
+}
+
+.card-deck{
+  gap:20px 0;
+}
+
+.project-deck{
+  padding-bottom:20px !important;
+}
+
+.portfoliocards{
+  padding:5px !important
+}
+
+@media only screen and (max-width: 575px) {
+  .portfoliocards{
+    padding:0 !important;
+  
+  }
+  .card{
+    margin: 15px 0 !important;
+  }
+
+  a.navbar-brand {
+    margin-left:0;
+  }
 }
